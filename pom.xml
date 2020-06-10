@@ -10,6 +10,7 @@
     <artifactId>google.gson</artifactId>
     <version>2020.6.10.2030</version>
 
+
     <build>
         <plugins>
             <plugin>
