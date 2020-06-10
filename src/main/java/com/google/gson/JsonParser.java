@@ -31,12 +31,12 @@ import java.io.StringReader;
  * @since 1.3
  */
 public final class JsonParser {
-    /**
-     * @deprecated No need to instantiate this class, use the static methods instead.
-     */
-    @Deprecated
-    public JsonParser() {
-    }
+//    /**
+//     * @deprecated No need to instantiate this class, use the static methods instead.
+//     */
+//    @Deprecated
+//    public JsonParser() {
+//    }
 
     /**
      * Parses the specified JSON string into a parse tree
@@ -94,27 +94,27 @@ public final class JsonParser {
         }
     }
 
-    /**
-     * @deprecated Use {@link JsonParser#parseString}
-     */
-    @Deprecated
-    public JsonElement parse(String json) throws JsonSyntaxException {
-        return parseString(json);
-    }
+//    /**
+//     * @deprecated Use {@link JsonParser#parseString}
+//     */
+//    @Deprecated
+//    public JsonElement parse(String json) throws JsonSyntaxException {
+//        return parseString(json);
+//    }
 
-    /**
-     * @deprecated Use {@link JsonParser#parseReader(Reader)}
-     */
-    @Deprecated
-    public JsonElement parse(Reader json) throws JsonIOException, JsonSyntaxException {
-        return parseReader(json);
-    }
+//    /**
+//     * @deprecated Use {@link JsonParser#parseReader(Reader)}
+//     */
+//    @Deprecated
+//    public JsonElement parse(Reader json) throws JsonIOException, JsonSyntaxException {
+//        return parseReader(json);
+//    }
 
-    /**
-     * @deprecated Use {@link JsonParser#parseReader(JsonReader)}
-     */
-    @Deprecated
-    public JsonElement parse(JsonReader json) throws JsonIOException, JsonSyntaxException {
-        return parseReader(json);
-    }
+//    /**
+//     * @deprecated Use {@link JsonParser#parseReader(JsonReader)}
+//     */
+//    @Deprecated
+//    public JsonElement parse(JsonReader json) throws JsonIOException, JsonSyntaxException {
+//        return parseReader(json);
+//    }
 }

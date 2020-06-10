@@ -1,7 +1,5 @@
 package com.google.gson;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * @author Liangcheng Juves
  * Created at 2020/6/10 20:26

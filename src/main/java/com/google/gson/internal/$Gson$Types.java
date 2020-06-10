@@ -290,6 +290,7 @@ public final class $Gson$Types {
 
     /**
      * Returns the component type of this array type.
+     *
      * @throws ClassCastException if this type is not an array.
      */
     public static Type getArrayComponentType(Type array) {
@@ -300,6 +301,7 @@ public final class $Gson$Types {
 
     /**
      * Returns the element type of this collection type.
+     *
      * @throws IllegalArgumentException if this type is not a collection.
      */
     public static Type getCollectionElementType(Type context, Class<?> contextRawType) {

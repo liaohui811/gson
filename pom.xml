@@ -8,7 +8,7 @@
 
     <groupId>com.meyoustu.modify</groupId>
     <artifactId>google.gson</artifactId>
-    <version>2020.6.10.2030</version>
+    <version>2020.6.10.2122</version>
 
 
     <build>

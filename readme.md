@@ -26,7 +26,7 @@ allprojects {
 
 
 dependencies {
-    implementation 'com.github.meyoustu:gson:2020.6.10.2030'
+    implementation 'com.github.meyoustu:gson:2020.6.10.2122'
 }
 ```
 
@@ -45,6 +45,6 @@ Maven:
 <dependency>
     <groupId>com.github.meyoustu</groupId>
     <artifactId>gson</artifactId>
-    <version>2020.6.10.2030</version>
+    <version>2020.6.10.2122</version>
 </dependency>
 ```
